@@ -15,10 +15,10 @@
         "titleFont": "Open Sans",
         "subtitleFont": "Lato",
         "textFont": "Lato",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
-        "isRtl": false
+        "isRtl": true
       }
     },
     "versionFirst": "3.12.1",
