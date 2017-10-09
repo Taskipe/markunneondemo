@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+
 
 
 
@@ -419,9 +422,6 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #1c75bc;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
-}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -438,6 +438,7 @@ h6,
 #menu-0 .link,
 #menu-0 .dropdown-item {
   color: #1c75bc;
+  font-family: 'Lato', sans-serif;
 }
 #menu-0 .link {
   font-size: 0.75rem;
@@ -489,9 +490,16 @@ h6,
   text-align: left;
 }
 #header1-1 .mbr-section-title {
-  font-size: 32px;
+  font-size: 21px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+}
+#header1-1 .mbr-section-title SPAN {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+}
+#msg-box5-5 H3 {
+  font-size: 32px;
 }
 #form1-4 .form-control-label {
   color: #232323;

@@ -16,14 +16,17 @@
         "subtitleFont": "Lato",
         "textFont": "Lato",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#4d1273"
+      ]
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 9,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.3.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -55,7 +58,9 @@
               "background-color": "#1c75bc"
             },
             ".link, .dropdown-item": {
-              "color": "#1c75bc"
+              "color": "#1c75bc",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Lato', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -95,22 +100,26 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#efefef",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#1c75bc",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
             "logo": true,
             "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": true
+            "transparent": false,
+            "bgColor": "#efefef",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Lato",
+              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "css": "'Lato', sans-serif"
+            },
+            "fontColor": "#1c75bc",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/markunneon-logo-kuvio-223x128.png",
+              "src": "@PROJECT_PATH@/assets/images/markunneon-logo-480x128.png",
               "height": 128,
               "alt": "Markun Neon Oy",
               "link": "#top",
@@ -123,8 +132,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MARKUN <br>NEON OY</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header1-1\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">TUOTTEET</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Pintaputkiset<br>neonvalomainokset<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Akryylipintaiset<br>neonvalomainokset<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Valomainoskotelot</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Valomainospylonit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Nimikyltit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Julisteet / banderollit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Vinyylit / Teippaukset</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Ajoneuvoteippaukset</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Opastekyltit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Messutuotteet</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Muut</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\" aria-expanded=\"false\">PALVELUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-5\" aria-expanded=\"false\">YRITYS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\">YHTEYSTIEDOT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-4\" aria-expanded=\"false\">TARJOUSPYYNTÖ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\"></a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#header1-1\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">TUOTTEET</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Pintaputkiset<br>neonvalomainokset<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Akryylipintaiset<br>neonvalomainokset<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Valomainoskotelot</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Valomainospylonit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Nimikyltit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Julisteet / banderollit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Vinyylit / Teippaukset</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Ajoneuvoteippaukset</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Opastekyltit</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Messutuotteet</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Muut</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\" aria-expanded=\"false\">PALVELUT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-5\" aria-expanded=\"false\">YRITYS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-8\" aria-expanded=\"false\">YHTEYSTIEDOT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-4\" aria-expanded=\"false\">TARJOUSPYYNTÖ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\"></a></li>"
         },
         {
           "_tags": [
@@ -139,33 +148,38 @@
               "text-align": "left"
             },
             ".mbr-section-title": {
-              "font-size": "32px",
+              "font-size": "21px",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "text-align": "center"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "32px"
             }
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/etusivu-banner-2000x1073.jpg",
-            "bgColor": "#a07e49",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#4d1273",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": "0.5"
           },
-          "title": "<br>Valomainos on tärkeä <br>tekijä luodessasi yrityskuvaasi",
+          "title": "<br><span style=\"font-weight: normal;\">Valomainos&nbsp;on tärkeä&nbsp;tekijä&nbsp;luodessasi &nbsp;yrityskuvaasi</span>",
           "text": "<span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Markun Neon Oy on valomainoksia myyvä, huoltava ja asentava yritys. Toimialaamme kuuluu myös tarratekstien ja logojen valmistus ja teippaus. Toimintamme alkoi vuonna 1982. Nykyään edustamamme valomainokset valmistetaan pääosin Eestin kokeneimmassa valomainosyrityksessä Jaa Disain OÜ:ssä.&nbsp;Bio Rex neonvalot<br><br>Tarjoamme täyden palvelun tuotteisiimme liittyen suunnittelusta asennukseen ja huoltoon. Autamme asiakkaita löytämään juuri heidän tarpeisiinsa sopivimmat ratkaisut. Monen vuoden kokemus valomainosalalta ja tuotteidemme korkea laatu takaa asiakkaiden tyytyväisyyden.<br><br></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#contacts1-8\" data-toolbar=\"-mbrBtnMove\">Ota yhteyttä meihin. Autamme mielellämme.</a> "
         },
@@ -174,27 +188,32 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          },
           "_anchor": "msg-box5-5",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "70",
             "paddingTop": "1",
             "paddingBottom": 0,
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -237,19 +256,19 @@
           },
           "_anchor": "form1-4",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "TARJOUSPYYNTÖ<br><br>",
           "subtitle": "Voit tällä lomakkeella tehdä meille avoimen tarjouspyynnön. Kerro meille mistä tuotteistamme tai palveluistamme olet kiinnostunut. Voit myös lähettää kysymyksiä jos haluat lisätietoa. Vastaamme mielellämme.",
@@ -289,26 +308,25 @@
           "_name": "contacts1",
           "_anchor": "contacts1-8",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#28324e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#cccccc",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/markunneon-logo-kuvio-128x73.png",
+              "src": "@PROJECT_PATH@/assets/images/markunneon-merkki-128x84.png",
               "width": 128,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -317,7 +335,7 @@
             }
           },
           "text1": "<strong>Osoite</strong><br>Markun Neon Oy<br>Koskelontie 18 B 7<br>02920 ESPOO<br>",
-          "text2": "<strong>Yhteys</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p><strong>Yhteys</strong><br>Puh. (09) 345 5200<br><br><a href=\"mailto:markunneon@markunneon.fi\">email: markunneon (ät) markunneon.fi</a><br></p>",
           "text3": "<br><br>"
         },
         {
@@ -327,15 +345,15 @@
           "_name": "map2",
           "_anchor": "map2-7",
           "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#28324e",
             "googleMap": {
               "address": "Koskelontie 18 B 7,\n02920 ESPOO",
               "placeId": "ChIJgdNpdjnxjUYRoddAfnnS6kA",
               "state": "ok",
               "stateDetails": ""
-            }
+            },
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#cccccc"
           }
         }
       ]
